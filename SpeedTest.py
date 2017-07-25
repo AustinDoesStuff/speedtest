@@ -6,10 +6,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-key = "o5lfqT90lF9eaiXrikXXdw2o0"
-secret = "8HplZfUMPmZ0yHIdtWdLeLy3FWODfyWTuOu6yA55DGEc8dE5YK"
-accessToken = "809565371695034368-WoO437rm0eFuPIRx9LpyE90RTMfU7Dv"
-accessSecret = "QR8GN5yWWcUn7FDvMvrVAX093clDrv1ls41lcoLmvzyj1"
+key = "[redacted]"
+secret = "[redacted]"
+accessToken = "[redacted]"
+accessSecret = "[redacted]"
 
 auth = tweepy.OAuthHandler(key, secret)
 auth.set_access_token(accessToken, accessSecret)
